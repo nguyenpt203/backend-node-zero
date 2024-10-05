@@ -1,0 +1,27 @@
+{
+  "name": "backend-zero",
+  "version": "1.0.0",
+  "description": "Nguyen Phung backend zero",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenpt203/backend-node-zero.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "Nguyen Phung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenpt203/backend-node-zero/issues"
+  },
+  "homepage": "https://github.com/nguyenpt203/backend-node-zero#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
