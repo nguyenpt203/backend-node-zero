@@ -7,11 +7,13 @@ console.log('PORT:', process.env.PORT);
 console.log('HOST_NAME:', process.env.HOST_NAME);
 const port = process.env.PORT || 8888;
 const hostname = process.env.HOST_NAME;
-// config template engine
 
+// config template engine
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 
+// config static files
+app.use(express.static(path.join(__dirname, 'public')))
 // Khai báo router
 app.get('/', (req, res) => {
   res.send('Hello World! & Phung Thai Nguyen')
